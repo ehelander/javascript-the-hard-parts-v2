@@ -47,3 +47,29 @@
 
 ## [Arrow Functions](https://frontendmasters.com/courses/javascript-hard-parts-v2/arrow-functions/)
 
+- The designers of JavaScript love to reduce code.
+  - Perhaps making it more *legible* (less code on the page), but less readable (more difficult to intuit at a glance).
+- Arrow function
+  - Inserts the `return` keyword and the curly braces behind the scenes.
+- It's easier to *track* what's happening when we have a separately-defined function.
+- Under-the-hood differences for arrow functions:
+  - The `this` keyword assignment is treated differently.
+- Are there any memory saving considerations when inlining a function?
+  - Very small, in this context. But if we're saving a hundred functions to a thousand objects and dealing with recursion, yes. But, usually, the scarcest resource is a developer's understanding and time.
+
+## [Pair Programming](https://frontendmasters.com/courses/javascript-hard-parts-v2/pair-programming/)
+
+- What it means to be an engineer: To be able to hit a hard block, and figure out some way to resolve through it.
+  - Debugging: Going through the code line-by-line and understanding the data (the state). But we try *very* hard to avoid doing this.
+- There are two traps when seeking to grow as a software engineer:
+  - The researcher
+    - Avoids blocks by reading everything they can find on their block/bug.
+  - The Stackoverflower
+    - Uses code snippets to fix bug without knowing how they work.
+- Pair programming avoids these traps:
+  - Tackle blocks with a partner
+  - Stay focused on the problem
+  - Refine technical communication
+  - Collaborate to solve problem
+- Pair programming process:
+  - Navigator talks the driver through the strategy of writing code to solve the problem at hand.
